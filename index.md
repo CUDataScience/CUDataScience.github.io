@@ -8,20 +8,19 @@ You can use HTML elements in Markdown, such as the comment element, and they won
 
   <header>
     <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
-  
       <div class="carousel-inner" role="listbox">
         <!-- Slide One - Set the background image for this slide in the line below -->
-        <div class="carousel-item active" style="background-image: url(img/home.jpg)">
-          <div class="carousel-caption d-none d-md-block">
+        <div class="carousel-item active" style="background-image: url(img/home3.jpg)">
+          <div class="carousel-caption d-none d-md-block textShadow">
             <h3>Data Science - CU</h3>
             <p>An academia-industry amalgam</p>
           </div>
         </div>
-        <!-- Slide Two - Set the background image for this slide in the line below >
-        <div class="carousel-item" style="background-image: url('http://placehold.it/1900x1080')">
-          <div class="carousel-caption d-none d-md-block">
-            <h3>Second Slide</h3>
-            <p>This is a description for the second slide.</p>
+        <!-- Slide Two - Set the background image for this slide in the line below -->
+        <div class="carousel-item" style="background-image: url(img/dr-amlan-icdmai-2018.jpg)">
+          <div class="carousel-caption d-none d-md-block textShadow">
+            <h3>Data Science - CU</h3>
+            <p>An academia-industry amalgam</p>
           </div>
         </div>
         <!-- Slide Three - Set the background image for this slide in the line below >
@@ -45,55 +44,12 @@ You can use HTML elements in Markdown, such as the comment element, and they won
 
   <!-- Page Content -->
   <div class="container">
-
     <h1 class="my-4">Welcome to Data Science@CU</h1>
-
-    <!-- Marketing Icons Section >
-    <div class="row">
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reiciendis ipsam eos, nam perspiciatis natus commodi
-              similique totam consectetur praesentium molestiae atque exercitationem ut consequuntur, sed eveniet, magni
-              nostrum sint fuga.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-      <div class="col-lg-4 mb-4">
-        <div class="card h-100">
-          <h4 class="card-header">Card Title</h4>
-          <div class="card-body">
-            <p class="card-text">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sapiente esse necessitatibus neque.</p>
-          </div>
-          <div class="card-footer">
-            <a href="#" class="btn btn-primary">Learn More</a>
-          </div>
-        </div>
-      </div>
-    </div>
-    <!-- /.row -->
-
        <!-- Features Section -->
        <div class="row">
-        <div class="col-lg-6">
+        <div class="col-md-6">
           <h2>Goals</h2>
           <ul>
-    
             <li>To create a platform , where people from industry , academia can share ideas , work
               together.</li>
             <li>To work on projects which can improve quality of life , especially in the domain of public
@@ -103,7 +59,12 @@ You can use HTML elements in Markdown, such as the comment element, and they won
               project status</li>
           </ul>
         </div>
-        <div class="col-lg-6">
+        <div class="col-md-6">
+          <div id="internBtnContainer">
+             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#internshipModal">
+              We are looking for interns !!
+            </button>
+          </div>
           <div class="card">
             <div class="card-header">Next Meetup !!!</div>
             <div class="card-body">9th June 2018</div>
@@ -111,10 +72,8 @@ You can use HTML elements in Markdown, such as the comment element, and they won
         </div>
       </div>
       <!-- /.row -->
-
     <!-- Portfolio Section -->
     <h2>Projects</h2>
-
     <div class="row">
       <div class="col-lg-4 col-sm-6 portfolio-item">
         <div class="card h-100">
@@ -196,27 +155,25 @@ You can use HTML elements in Markdown, such as the comment element, and they won
       </div>
     </div>
     <!-- /.row -->
-
     <!-- Features Section -->
     <div class="row">
       <div class="col-lg-6">
         <h2>Members</h2>
         <p>An academia-industry amalgam:</p>
         <ul>
-          <li>University of Calcutta : Faculty 3 , Students 2, Alumni 1, Research Scholar (2)</li>
-          <li>Other faculty from Academia : 2</li>
-          <li>IT Industry : Cognizant (4), IBM (3), TCS (4), Third Eye(3), etc</li>
-          <li>Interns from other colleges : 4</li>
+          <li>University of Calcutta : Faculty, Students, Alumni, Research Scholars</li>
+          <li>Other faculty from Academia</li>
+          <li>IT Industry : Cognizant, IBM, TCS, Third Eye, etc</li>
+          <li>Interns from other colleges</li>
         </ul>
+        <a href="members">See the full list</a>
       </div>
       <div class="col-lg-6">
-        <img class="img-fluid rounded" src="http://placehold.it/700x450" alt="">
+        <img class="img-fluid rounded" src="img/group.jpg" alt="">
       </div>
     </div>
     <!-- /.row -->
-
     <hr>
-
     <!-- Call to Action Section >
     <div class="row mb-4">
       <div class="col-md-8">
@@ -228,4 +185,37 @@ You can use HTML elements in Markdown, such as the comment element, and they won
       </div>
     </div-->
 
+
+
+<!-- Modal -->
+<div class="modal fade" id="internshipModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLongTitle">Internship Opportunity</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <strong>CU Data Science Group is looking for interns in the following areas : </strong>
+        <div>
+          <ul>
+            <li>Text Analytics (1)</li>
+            <li>Computer Vision (1)</li>
+            <li>Deep Learning (1)</li>
+            <li>No SQL (1)</li>
+          </ul>
+          <p>
+            The candidate should have some  basic knowledge in 'R' and 'Python'<br/>
+            <strong>Last date of Application</strong> : 31st May<br/>
+            <strong>Stating of Internship</strong> : First/Second week of June<br/>
+            <strong>Duration</strong> : 6 weeks ( In case college reopens, last week can be waived and be done in remote mode )<br/>
+            <i>Students will be given basic overview of machine learning , Certificates , Guidance to write research paper</i>.
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
   </div>
